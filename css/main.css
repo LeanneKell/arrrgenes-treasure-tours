@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 
-.masthead {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,19 +25,19 @@ body {
   font-size: 1.25rem;
 }
 
-.masthead h1 {
+header h1 {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
 }
 
-.masthead img {
+h1 img {
   width: 2em;
   height: 2em;
   margin-right: .5rem;
 }
 
-.masthead span {
+h1 span {
   width: 9em;
 }
 
@@ -56,7 +56,11 @@ body {
   text-decoration: none;
 }
 
-.banner {
+a:focus{
+  background-color: #bea59b;
+}
+
+section {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -65,12 +69,12 @@ body {
   font-size: 1.5rem;
 }
 
-.banner img {
+section img {
   grid-area: banner;
   width: 100%;
 }
 
-.banner div {
+section div {
   grid-area: banner;
   align-self: center;
   justify-self: center;
@@ -79,12 +83,12 @@ body {
   text-align: center;
 }
 
-.banner h2,
-.banner p {
+section h2,
+section p {
   margin: 0 0 1.5rem;
 }
 
-.banner a {
+section a {
   display: inline-block;
   background-color: transparent;
   padding: .5em 1.5em .6em;
@@ -95,7 +99,7 @@ body {
   text-decoration: none;
 }
 
-.ship {
+aside {
   padding: 2rem;
 }
 
@@ -136,7 +140,7 @@ body {
   text-decoration: none;
 }
 
-.footer {
+footer {
   background-color: #522806;
   border-top: .3rem solid #bea59b;
   color: #fff;
@@ -145,6 +149,6 @@ body {
   padding: 1rem;
 }
 
-.footer * {
+footer {
   margin: 0;
 }
