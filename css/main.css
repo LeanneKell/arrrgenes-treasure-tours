@@ -67,6 +67,7 @@ section {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: #522806;
 }
 
 section img {
