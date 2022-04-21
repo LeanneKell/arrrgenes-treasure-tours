@@ -9,16 +9,16 @@
 </head>
 <body>
 
-  <header role="banner">
+  <header class="masterhead" role="banner">
     <h1>
       <img src="images/logo.svg" alt="logo">
       <span>Arrrgene’s Treasure Tours</span>
     </h1>
-    <nav role="navigation">
+    <nav class="nav" role="navigation">
       <ul>
-        <li><a href="#">Tours</a></li>
-        <li><a href="#">Ships</a></li>
-        <li><a href="#">Tickets</a></li>
+        <li><a href="#" aria-lable="Veiw tour options">Tours</a></li>
+        <li><a href="#" aria-lable="Veiw the types of ships">Ships</a></li>
+        <li><a href="#" aria-lable="Get your tickes">Tickets</a></li>
       </ul>
     </nav>
   </header>
@@ -26,8 +26,8 @@
   <main role="main">
 
     <section role="region">
-      <img src="images/banner.jpg" alt="banner">
-      <div>
+      <img aria-detials="#banner" src="images/banner.jpg" alt="banner">
+      <div id="banner">
         <h2>Ahoy, me Hearties!</h2>
         <p>Batten down the hatches and sail me corsair to plentiful doubloons.</p>
         <a href="#">Book a tour</a>
@@ -39,7 +39,7 @@
         <img src="images/ship.svg" alt="ship">
         <h2>Heave Ho!</h2>
         <p>Weigh anchor and hoist the mizzen, ya old salt, aboard shipshape <i>Arrrgonaut</i>.</p>
-        <a href="#">See the specs</a>
+        <a href="#" aria-lable="Veiw the list of specifications">See the specs</a>
       </div>
     </aside>
 

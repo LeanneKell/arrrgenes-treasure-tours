@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 
-header {
+.masterhead {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +25,7 @@ header {
   font-size: 1.25rem;
 }
 
-header h1 {
+.masterhead h1 {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
